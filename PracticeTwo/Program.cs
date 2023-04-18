@@ -30,8 +30,11 @@ builder.Services.AddSwaggerGen(options =>
 
 // SERILOG
 Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Information()
+    .Enrich.FromLogContext()
     .WriteTo.Console()
-    .CreateBootstrapLogger();
+    .WriteTo.File("logs\\log-.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
 
 Log.Information("Serilog configured");
 builder.Host.UseSerilog();

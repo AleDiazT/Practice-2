@@ -1,0 +1,11 @@
+2023-04-17 20:26:16.100 -04:00 [INF] Serilog configured
+2023-04-17 20:29:08.357 -04:00 [INF] Serilog configured
+2023-04-17 20:29:08.561 -04:00 [INF] Now listening on: http://localhost:5161
+2023-04-17 20:29:08.570 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-17 20:29:08.573 -04:00 [INF] Hosting environment: UAT
+2023-04-17 20:29:08.574 -04:00 [INF] Content root path: D:\UPB\Certificación1\2d\practiceTwo\PracticeTwo\
+2023-04-17 20:29:15.945 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5161/swagger/index.html - -
+2023-04-17 20:29:16.035 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5161/swagger/index.html - - - 200 - text/html;charset=utf-8 92.6855ms
+2023-04-17 20:29:16.545 -04:00 [INF] Request starting HTTP/1.1 GET http://localhost:5161/swagger/v1/swagger.json - -
+2023-04-17 20:29:16.634 -04:00 [INF] Request finished HTTP/1.1 GET http://localhost:5161/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 88.4837ms
+2023-04-17 20:29:45.903 -04:00 [INF] Application is shutting down...
